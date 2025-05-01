@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Columban College - Clinic Inventory</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+        
+      <div class="brand">
+        <img src="{{ url_for('static', filename='cc_logo.png') }}" alt="Logo" class="logo-image">
+        Columban College - Clinic Inventory
+      </div>
+      <div class="nav-links">
+        <a href="/dashboard">Dashboard</a>
+        <a href="/add">Add Item</a>
+        <a href="/settings">Account</a>
+        <a href="/history">Activity History</a> <!-- Added history link -->
+        <a href="/logout">Logout</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class="flash-messages">
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}
+      <h2>Activity History</h2>
+      <table border="1" cellpadding="5">
+        <tr>
+          <th>Action</th>
+          <th>Item</th>
+          <th>User</th>
+          <th>Timestamp</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+          <td>{{ log[0] }}</td>
+          <td>{{ log[1] }}</td>
+          <td>{{ log[3] }}</td>
+          <td>{{ log[2] }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    {% endblock %}
+  </div>
+</body>
+</html>

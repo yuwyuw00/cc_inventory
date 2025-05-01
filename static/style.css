@@ -1,0 +1,344 @@
+/* Base Setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #eaf6ff, #d9ecff);
+    color: #003366;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 170vh;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 51, 102, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 51, 102, 0.3);
+}
+
+/* Brand */
+.brand img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    max-width: 100%;
+}
+
+/* Dashboard Filters */
+.dashboard-filters form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.dashboard-filters input[type="text"],
+.dashboard-filters select,
+
+.dashboard-filters button {
+    padding: 12px;
+    border: 1px solid #b3d1ff;
+    border-radius: 12px;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #f0f8ff;
+}
+
+.dashboard-filters input[type="text"]:focus,
+.dashboard-filters select:focus {
+    border-color: #0056d6;
+    outline: none;
+}
+
+.dashboard-filters button {
+    background: linear-gradient(to right, #0056d6, #0041a8);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.dashboard-filters button:hover {
+    background: linear-gradient(to right, #0041a8, #003080);
+    transform: scale(1.05);
+}
+
+
+
+.dashboard-filters input[type="checkbox"] {
+    margin: 0;
+}
+
+.dashboard-filters label[for="expiring"] {
+    margin-left: 5px;
+}
+
+/* Dashboard Items */
+.dashboard-items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.dashboard-layout {
+    display: flex;
+    gap: 25px;
+}
+
+.dashboard-filters {
+    width: 25%;
+    background-color: #f4f8ff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-filters form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; 
+}
+
+.dashboard-items {
+    overflow-x: auto;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #004aad;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+    margin: 20px 0;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form select,
+form textarea {
+    padding: 12px;
+    border: 1px solid #b3d1ff;
+    border-radius: 12px;
+    font-size: 1rem;
+    width: 100%;
+    background-color: #f0f8ff;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #0056d6;
+    outline: none;
+}
+
+form button {
+    background: linear-gradient(to right, #0056d6, #0041a8);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #0041a8, #003080);
+    transform: scale(1.05);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #b3d1ff;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(to bottom, #d9ecff, #cce5ff);
+    color: #004aad;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f7ff;
+}
+
+tr:hover {
+    background-color: #eaf2ff;
+    transition: background-color 0.3s ease;
+}
+
+/* Links */
+a {
+    color: #0056d6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #003080;
+    text-decoration: underline;
+}
+
+/* Search Input */
+input[type="search"] {
+    padding: 12px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #99c2ff;
+    border-radius: 12px;
+    background-color: #f0f8ff;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+input[type="search"]:focus {
+    border-color: #0056d6;
+    outline: none;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.action-buttons a {
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.action-buttons a.delete {
+    background-color: #f44336;
+}
+
+.action-buttons a:hover {
+    background-color: #45a049;
+}
+
+.action-buttons a.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to right, #004aad, #003080);
+    padding: 15px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 51, 0.2);
+}
+
+.navbar-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #e6f0ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Flash Messages */
+.flash-messages {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.flash-messages li {
+    background-color: #cce5ff;
+    border-left: 5px solid #005cbf;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    color: #003366;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 51, 0.1);
+}
+
+/* Paragraph */
+p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    table, thead, tbody, th, td, tr {
+        font-size: 0.9rem;
+    }
+
+    .nav-links a {
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+}

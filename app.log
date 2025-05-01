@@ -1,0 +1,91 @@
+2025-05-01 11:14:08,664 - INFO - Starting Flask application
+2025-05-01 11:14:08,701 - WARNING -  * Debugger is active!
+2025-05-01 11:14:08,719 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 11:14:14,891 - INFO - Dashboard accessed by user ID: 1
+2025-05-01 11:14:14,907 - DEBUG - Dashboard query executed: SELECT * FROM items WHERE 1=1 ORDER BY expiration_date ASC with params []
+2025-05-01 11:14:14,940 - INFO - 127.0.0.1 - - [01/May/2025 11:14:14] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 11:14:15,082 - INFO - 127.0.0.1 - - [01/May/2025 11:14:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:14:15,097 - INFO - 127.0.0.1 - - [01/May/2025 11:14:15] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:14:27,679 - INFO - Dashboard accessed by user ID: 1
+2025-05-01 11:14:27,679 - DEBUG - Dashboard query executed: SELECT * FROM items WHERE 1=1 ORDER BY expiration_date ASC with params []
+2025-05-01 11:14:27,695 - INFO - 127.0.0.1 - - [01/May/2025 11:14:27] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 11:14:27,721 - INFO - 127.0.0.1 - - [01/May/2025 11:14:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:14:27,728 - INFO - 127.0.0.1 - - [01/May/2025 11:14:27] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:14:35,713 - INFO - 127.0.0.1 - - [01/May/2025 11:14:35] "[33mGET /edit/7 HTTP/1.1[0m" 404 -
+2025-05-01 11:14:42,501 - INFO - 127.0.0.1 - - [01/May/2025 11:14:42] "[33mGET /edit/1 HTTP/1.1[0m" 404 -
+2025-05-01 11:14:48,881 - INFO - 127.0.0.1 - - [01/May/2025 11:14:48] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 11:15:10,388 - INFO - 127.0.0.1 - - [01/May/2025 11:15:10] "[33mGET /edit/1 HTTP/1.1[0m" 404 -
+2025-05-01 11:16:15,984 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 11:17:16,677 - INFO - Starting the application
+2025-05-01 11:17:16,828 - WARNING -  * Debugger is active!
+2025-05-01 11:17:16,842 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 11:17:18,990 - INFO - Fetching item ID 1
+2025-05-01 11:17:19,018 - INFO - 127.0.0.1 - - [01/May/2025 11:17:19] "GET /edit/1 HTTP/1.1" 200 -
+2025-05-01 11:17:19,180 - INFO - 127.0.0.1 - - [01/May/2025 11:17:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:17:19,218 - INFO - 127.0.0.1 - - [01/May/2025 11:17:19] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:17:32,964 - INFO - Fetching item ID 1
+2025-05-01 11:17:32,969 - INFO - 127.0.0.1 - - [01/May/2025 11:17:32] "GET /edit/1 HTTP/1.1" 200 -
+2025-05-01 11:17:32,995 - INFO - 127.0.0.1 - - [01/May/2025 11:17:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:17:33,016 - INFO - 127.0.0.1 - - [01/May/2025 11:17:33] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:17:51,522 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 11:17:52,120 - INFO - Starting the application
+2025-05-01 11:17:52,146 - WARNING -  * Debugger is active!
+2025-05-01 11:17:52,165 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 11:17:55,691 - INFO - Fetching item ID 6
+2025-05-01 11:17:55,719 - INFO - 127.0.0.1 - - [01/May/2025 11:17:55] "GET /edit/6 HTTP/1.1" 200 -
+2025-05-01 11:17:55,879 - INFO - 127.0.0.1 - - [01/May/2025 11:17:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:17:55,917 - INFO - 127.0.0.1 - - [01/May/2025 11:17:55] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:18:04,421 - INFO - Fetching item ID 4
+2025-05-01 11:18:04,425 - INFO - 127.0.0.1 - - [01/May/2025 11:18:04] "GET /edit/4 HTTP/1.1" 200 -
+2025-05-01 11:18:04,531 - INFO - 127.0.0.1 - - [01/May/2025 11:18:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:18:04,630 - INFO - 127.0.0.1 - - [01/May/2025 11:18:04] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:18:10,749 - INFO - Fetching item ID 4
+2025-05-01 11:18:10,753 - INFO - User Admin editing item ID 4: sdf
+2025-05-01 11:18:10,753 - INFO - Updating item ID 4: sdf, Category: Supply, Stock: 21
+2025-05-01 11:18:10,773 - INFO - Logging activity: User ID 1, Action: Edited item, Item: sdf
+2025-05-01 11:18:10,779 - INFO - 127.0.0.1 - - [01/May/2025 11:18:10] "[32mPOST /edit/4 HTTP/1.1[0m" 302 -
+2025-05-01 11:18:10,814 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 11:18:10,829 - INFO - 127.0.0.1 - - [01/May/2025 11:18:10] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 11:18:10,866 - INFO - 127.0.0.1 - - [01/May/2025 11:18:10] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:18:10,866 - INFO - 127.0.0.1 - - [01/May/2025 11:18:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:18:25,293 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 11:18:26,004 - INFO - Starting the application
+2025-05-01 11:18:26,071 - WARNING -  * Debugger is active!
+2025-05-01 11:18:26,082 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 11:19:11,295 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 11:19:11,853 - INFO - Starting the application
+2025-05-01 11:19:11,898 - WARNING -  * Debugger is active!
+2025-05-01 11:19:11,919 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 11:19:18,973 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 11:19:19,003 - INFO - 127.0.0.1 - - [01/May/2025 11:19:19] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 11:19:19,174 - INFO - 127.0.0.1 - - [01/May/2025 11:19:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:19:19,211 - INFO - 127.0.0.1 - - [01/May/2025 11:19:19] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:19:21,399 - INFO - Fetching item ID 6
+2025-05-01 11:19:21,413 - INFO - 127.0.0.1 - - [01/May/2025 11:19:21] "GET /edit/6 HTTP/1.1" 200 -
+2025-05-01 11:19:21,448 - INFO - 127.0.0.1 - - [01/May/2025 11:19:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:19:21,450 - INFO - 127.0.0.1 - - [01/May/2025 11:19:21] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:19:27,329 - INFO - Fetching item ID 6
+2025-05-01 11:19:27,333 - INFO - User Admin editing item ID 6: asdfasdf
+2025-05-01 11:19:27,333 - INFO - Updating item ID 6: asdfasdf, Category: Supply, Stock: 1
+2025-05-01 11:19:27,340 - INFO - Logging activity: User ID 1, Action: Edited item, Item: asdfasdf
+2025-05-01 11:19:27,350 - INFO - 127.0.0.1 - - [01/May/2025 11:19:27] "[32mPOST /edit/6 HTTP/1.1[0m" 302 -
+2025-05-01 11:19:27,364 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 11:19:27,376 - INFO - 127.0.0.1 - - [01/May/2025 11:19:27] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 11:19:27,408 - INFO - 127.0.0.1 - - [01/May/2025 11:19:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:19:27,432 - INFO - 127.0.0.1 - - [01/May/2025 11:19:27] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:51:54,878 - INFO - Fetching item ID 1
+2025-05-01 11:51:54,884 - INFO - 127.0.0.1 - - [01/May/2025 11:51:54] "GET /edit/1 HTTP/1.1" 200 -
+2025-05-01 11:51:54,929 - INFO - 127.0.0.1 - - [01/May/2025 11:51:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:51:54,935 - INFO - 127.0.0.1 - - [01/May/2025 11:51:54] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:54:13,184 - INFO - User Admin accessing history
+2025-05-01 11:54:13,200 - INFO - 127.0.0.1 - - [01/May/2025 11:54:13] "GET /history HTTP/1.1" 200 -
+2025-05-01 11:54:13,244 - INFO - 127.0.0.1 - - [01/May/2025 11:54:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:54:13,260 - INFO - 127.0.0.1 - - [01/May/2025 11:54:13] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:54:26,482 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 11:54:26,488 - INFO - 127.0.0.1 - - [01/May/2025 11:54:26] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 11:54:26,572 - INFO - 127.0.0.1 - - [01/May/2025 11:54:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:54:26,573 - INFO - 127.0.0.1 - - [01/May/2025 11:54:26] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:54:30,846 - INFO - User Admin accessing history
+2025-05-01 11:54:30,851 - INFO - 127.0.0.1 - - [01/May/2025 11:54:30] "GET /history HTTP/1.1" 200 -
+2025-05-01 11:54:30,903 - INFO - 127.0.0.1 - - [01/May/2025 11:54:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 11:54:30,920 - INFO - 127.0.0.1 - - [01/May/2025 11:54:30] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -

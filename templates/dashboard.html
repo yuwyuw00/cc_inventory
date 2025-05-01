@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h2>Medical Inventory Dashboard</h2>
+
+<div class="dashboard-layout">
+    <!-- Left: Filters -->
+    <div class="dashboard-filters">
+        <form method="GET" action="/dashboard">
+            <label for="search">Search:</label>
+            <input type="text" name="search" placeholder="Search items" value="{{ request.args.get('search', '') }}">
+
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+                <option value="">All</option>
+                <option value="Equipment" {% if request.args.get('category') == 'Equipment' %}selected{% endif %}>Equipment</option>
+                <option value="Supply" {% if request.args.get('category') == 'Supply' %}selected{% endif %}>Supply</option>
+                <!-- Add more categories if needed -->
+            </select>
+
+            <div class="checkbox-container">
+                <input type="checkbox" name="expiring" value="true" {% if request.args.get('expiring') == 'true' %}checked{% endif %}>
+                <label for="expiring">Show Almost Expiring</label>
+            </div>
+
+            <button type="submit">Apply Filters</button>
+        </form>
+    </div>
+
+    <!-- Right: Items Table -->
+    <div class="dashboard-items">
+        {% if items %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Stock</th>
+                        <th>Expiration Date</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in items %}
+                    <tr>
+                        <td>{{ item[1] }}</td>
+                        <td>{{ item[2] }}</td>
+                        <td>{{ item[3] }}</td>
+                        <td>{{ item[4] or 'N/A' }}</td>
+                        <td>{{ item[5] }}</td>
+                        <td class="action-buttons">
+                            <a href="/edit/{{ item[0] }}">Edit</a>
+                            <a href="/delete/{{ item[0] }}" onclick="return confirm('Are you sure?')">Delete</a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No items found.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

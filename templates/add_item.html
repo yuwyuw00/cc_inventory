@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="add_page">
+
+    <h2>Add New Item</h2>
+
+    <form method="POST" action="/add">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Category:</label>
+        <select name="category" required>
+            <option value="Supply">Supply</option>
+            <option value="Equipment">Equipment</option>
+        </select>
+
+        <label>Stock:</label>
+        <input type="number" name="stock" required>
+
+        <label>Expiration Date:</label>
+        <input type="date" name="expiration_date">
+
+        <label>Description:</label>
+        <textarea name="description"></textarea>
+
+        <button type="submit">Add Item</button>
+    </form>
+
+    <p><a href="/dashboard">⬅ Back to Dashboard</a></p>
+        
+</div>
+{% endblock %}
