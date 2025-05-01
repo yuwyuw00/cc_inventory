@@ -11,6 +11,111 @@ body {
     height: 100vh; /* Sets the height to fill the entire viewport */
 }
 
+/* Terms Page */
+.terms-page {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 51, 102, 0.2);
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #003366;
+}
+
+.terms-page h1, .terms-page h2 {
+    text-align: center;
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+.terms-page p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.terms-page ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.terms-page ul li {
+    margin-bottom: 10px;
+}
+
+.terms-page a {
+    color: #0056d6;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.terms-page a:hover {
+    color: #003080;
+}
+/* Privacy Page */
+.privacy-page {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 51, 102, 0.2);
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #003366;
+}
+
+.privacy-page h1, .privacy-page h2 {
+    text-align: center;
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+.privacy-page p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.privacy-page ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.privacy-page ul li {
+    margin-bottom: 10px;
+}
+
+.privacy-page a {
+    color: #0056d6;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.privacy-page a:hover {
+    color: #003080;
+}
+.footer {
+    max-height: 15vh;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003366;
+    color: #2e71c9;
+ 
+}
+
+.footer a{
+    color: #ffffff;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 /* Container */
 .container {
     max-width: 170vh;
@@ -118,6 +223,7 @@ body {
 }
 
 .dashboard-items {
+    width: 100%;
     overflow-x: auto;
 }
 
@@ -175,9 +281,10 @@ form button:hover {
     transform: scale(1.05);
 }
 
-/* Table */
 table {
     width: 100%;
+    max-width: 100%;
+    table-layout: auto;
     border-collapse: collapse;
     margin-top: 20px;
     background-color: white;
@@ -189,6 +296,7 @@ th, td {
     padding: 12px;
     border: 1px solid #b3d1ff;
     text-align: center;
+    word-wrap: break-word; /* Ensure content wraps within cells */
 }
 
 th {
