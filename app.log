@@ -365,3 +365,254 @@
 2025-05-01 13:47:15,375 - INFO - Starting the application
 2025-05-01 13:47:15,472 - WARNING -  * Debugger is active!
 2025-05-01 13:47:15,484 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 13:47:20,029 - INFO - 127.0.0.1 - - [01/May/2025 13:47:20] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:47:21,453 - INFO - 127.0.0.1 - - [01/May/2025 13:47:21] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:47:27,942 - INFO - 127.0.0.1 - - [01/May/2025 13:47:27] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:50:49,871 - INFO - 127.0.0.1 - - [01/May/2025 13:50:49] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:50:50,774 - INFO - 127.0.0.1 - - [01/May/2025 13:50:50] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:50:51,030 - INFO - 127.0.0.1 - - [01/May/2025 13:50:51] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:50:51,178 - INFO - 127.0.0.1 - - [01/May/2025 13:50:51] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:50:53,686 - INFO - 127.0.0.1 - - [01/May/2025 13:50:53] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 13:51:00,458 - INFO - 127.0.0.1 - - [01/May/2025 13:51:00] "[33mGET /edit/1 HTTP/1.1[0m" 404 -
+2025-05-01 13:51:05,941 - INFO - Fetching item ID 1
+2025-05-01 13:51:06,161 - INFO - 127.0.0.1 - - [01/May/2025 13:51:06] "GET /edit/1/s HTTP/1.1" 200 -
+2025-05-01 13:51:06,361 - INFO - 127.0.0.1 - - [01/May/2025 13:51:06] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:51:06,370 - INFO - 127.0.0.1 - - [01/May/2025 13:51:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:51:36,601 - INFO - 127.0.0.1 - - [01/May/2025 13:51:36] "[33mGET /edit/diatabs HTTP/1.1[0m" 404 -
+2025-05-01 13:51:43,957 - INFO - Fetching item ID 1
+2025-05-01 13:51:43,962 - INFO - 127.0.0.1 - - [01/May/2025 13:51:43] "GET /edit/1/diatabs HTTP/1.1" 200 -
+2025-05-01 13:51:44,009 - INFO - 127.0.0.1 - - [01/May/2025 13:51:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:51:44,013 - INFO - 127.0.0.1 - - [01/May/2025 13:51:44] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:54:21,127 - INFO - Fetching item ID 1
+2025-05-01 13:54:21,135 - INFO - 127.0.0.1 - - [01/May/2025 13:54:21] "GET /edit/1/diatabs HTTP/1.1" 200 -
+2025-05-01 13:54:21,189 - INFO - 127.0.0.1 - - [01/May/2025 13:54:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:54:21,197 - INFO - 127.0.0.1 - - [01/May/2025 13:54:21] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:54:25,195 - INFO - Fetching item ID 1
+2025-05-01 13:54:25,201 - INFO - User Admin editing item ID 1: Diatabs
+2025-05-01 13:54:25,201 - INFO - Updating item ID 1: Diatabs, Category: Supply, Stock: 50
+2025-05-01 13:54:25,211 - INFO - Logging activity: User ID 1, Action: Edited item, Item: Diatabs
+2025-05-01 13:54:25,228 - INFO - 127.0.0.1 - - [01/May/2025 13:54:25] "[32mPOST /edit/1/diatabs HTTP/1.1[0m" 302 -
+2025-05-01 13:54:25,236 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:54:25,331 - INFO - 127.0.0.1 - - [01/May/2025 13:54:25] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:54:25,360 - INFO - 127.0.0.1 - - [01/May/2025 13:54:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:54:25,369 - INFO - 127.0.0.1 - - [01/May/2025 13:54:25] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:54:27,532 - INFO - Fetching item ID 6
+2025-05-01 13:54:27,541 - INFO - 127.0.0.1 - - [01/May/2025 13:54:27] "GET /edit/6/asdfasdf HTTP/1.1" 200 -
+2025-05-01 13:54:27,584 - INFO - 127.0.0.1 - - [01/May/2025 13:54:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:54:27,661 - INFO - 127.0.0.1 - - [01/May/2025 13:54:27] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:02,273 - INFO - Fetching item ID 6
+2025-05-01 13:55:02,278 - INFO - User Admin editing item ID 6: Paracetamol
+2025-05-01 13:55:02,280 - INFO - Updating item ID 6: Paracetamol, Category: Supply, Stock: 10
+2025-05-01 13:55:02,285 - INFO - Logging activity: User ID 1, Action: Edited item, Item: Paracetamol
+2025-05-01 13:55:02,294 - INFO - 127.0.0.1 - - [01/May/2025 13:55:02] "[32mPOST /edit/6/asdfasdf HTTP/1.1[0m" 302 -
+2025-05-01 13:55:02,316 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:55:02,321 - INFO - 127.0.0.1 - - [01/May/2025 13:55:02] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:55:02,374 - INFO - 127.0.0.1 - - [01/May/2025 13:55:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:02,384 - INFO - 127.0.0.1 - - [01/May/2025 13:55:02] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:14,206 - INFO - Fetching item ID 8
+2025-05-01 13:55:14,212 - INFO - User Admin deleting item ID 8: asdasd
+2025-05-01 13:55:14,214 - INFO - Deleting item ID 8
+2025-05-01 13:55:14,219 - INFO - Logging activity: User ID 1, Action: Deleted item, Item: asdasd
+2025-05-01 13:55:14,359 - INFO - 127.0.0.1 - - [01/May/2025 13:55:14] "[32mGET /delete/8 HTTP/1.1[0m" 302 -
+2025-05-01 13:55:14,367 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:55:14,405 - INFO - 127.0.0.1 - - [01/May/2025 13:55:14] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:55:14,466 - INFO - 127.0.0.1 - - [01/May/2025 13:55:14] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:14,468 - INFO - 127.0.0.1 - - [01/May/2025 13:55:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:16,202 - INFO - Fetching item ID 4
+2025-05-01 13:55:16,208 - INFO - User Admin deleting item ID 4: sdf
+2025-05-01 13:55:16,209 - INFO - Deleting item ID 4
+2025-05-01 13:55:16,234 - INFO - Logging activity: User ID 1, Action: Deleted item, Item: sdf
+2025-05-01 13:55:16,279 - INFO - 127.0.0.1 - - [01/May/2025 13:55:16] "[32mGET /delete/4 HTTP/1.1[0m" 302 -
+2025-05-01 13:55:16,289 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:55:16,293 - INFO - 127.0.0.1 - - [01/May/2025 13:55:16] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:55:16,337 - INFO - 127.0.0.1 - - [01/May/2025 13:55:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:16,342 - INFO - 127.0.0.1 - - [01/May/2025 13:55:16] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:17,572 - INFO - User Admin accessing history
+2025-05-01 13:55:17,749 - INFO - 127.0.0.1 - - [01/May/2025 13:55:17] "GET /history HTTP/1.1" 200 -
+2025-05-01 13:55:17,766 - INFO - 127.0.0.1 - - [01/May/2025 13:55:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:17,775 - INFO - 127.0.0.1 - - [01/May/2025 13:55:17] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:30,505 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:55:30,509 - INFO - 127.0.0.1 - - [01/May/2025 13:55:30] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:55:30,564 - INFO - 127.0.0.1 - - [01/May/2025 13:55:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:30,573 - INFO - 127.0.0.1 - - [01/May/2025 13:55:30] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:40,548 - INFO - User Admin accessing history
+2025-05-01 13:55:40,555 - INFO - 127.0.0.1 - - [01/May/2025 13:55:40] "GET /history HTTP/1.1" 200 -
+2025-05-01 13:55:40,602 - INFO - 127.0.0.1 - - [01/May/2025 13:55:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:40,623 - INFO - 127.0.0.1 - - [01/May/2025 13:55:40] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:44,065 - INFO - 127.0.0.1 - - [01/May/2025 13:55:44] "GET /settings HTTP/1.1" 200 -
+2025-05-01 13:55:44,105 - INFO - 127.0.0.1 - - [01/May/2025 13:55:44] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:44,110 - INFO - 127.0.0.1 - - [01/May/2025 13:55:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:44,833 - INFO - 127.0.0.1 - - [01/May/2025 13:55:44] "GET /add HTTP/1.1" 200 -
+2025-05-01 13:55:44,853 - INFO - 127.0.0.1 - - [01/May/2025 13:55:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:44,863 - INFO - 127.0.0.1 - - [01/May/2025 13:55:44] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:45,549 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:55:45,556 - INFO - 127.0.0.1 - - [01/May/2025 13:55:45] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:55:45,598 - INFO - 127.0.0.1 - - [01/May/2025 13:55:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:55:45,603 - INFO - 127.0.0.1 - - [01/May/2025 13:55:45] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:47,167 - INFO - User Admin logged out
+2025-05-01 13:55:47,171 - INFO - 127.0.0.1 - - [01/May/2025 13:55:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-01 13:55:47,184 - INFO - 127.0.0.1 - - [01/May/2025 13:55:47] "GET / HTTP/1.1" 200 -
+2025-05-01 13:55:47,226 - INFO - 127.0.0.1 - - [01/May/2025 13:55:47] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:55:47,230 - INFO - 127.0.0.1 - - [01/May/2025 13:55:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:58:12,947 - INFO - 127.0.0.1 - - [01/May/2025 13:58:12] "GET / HTTP/1.1" 200 -
+2025-05-01 13:58:12,992 - INFO - 127.0.0.1 - - [01/May/2025 13:58:12] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:58:12,999 - INFO - 127.0.0.1 - - [01/May/2025 13:58:12] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:01:15,773 - INFO - 127.0.0.1 - - [01/May/2025 14:01:15] "GET / HTTP/1.1" 200 -
+2025-05-01 14:01:15,813 - INFO - 127.0.0.1 - - [01/May/2025 14:01:15] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:01:15,845 - INFO - 127.0.0.1 - - [01/May/2025 14:01:15] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:01:32,659 - INFO - 127.0.0.1 - - [01/May/2025 14:01:32] "GET / HTTP/1.1" 200 -
+2025-05-01 14:01:32,690 - INFO - 127.0.0.1 - - [01/May/2025 14:01:32] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:01:32,713 - INFO - 127.0.0.1 - - [01/May/2025 14:01:32] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:01:45,793 - INFO - 127.0.0.1 - - [01/May/2025 14:01:45] "GET / HTTP/1.1" 200 -
+2025-05-01 14:01:45,837 - INFO - 127.0.0.1 - - [01/May/2025 14:01:45] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:01:45,876 - INFO - 127.0.0.1 - - [01/May/2025 14:01:45] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:01:54,983 - INFO - 127.0.0.1 - - [01/May/2025 14:01:54] "GET / HTTP/1.1" 200 -
+2025-05-01 14:01:55,018 - INFO - 127.0.0.1 - - [01/May/2025 14:01:55] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:01:55,044 - INFO - 127.0.0.1 - - [01/May/2025 14:01:55] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:02:04,716 - INFO - 127.0.0.1 - - [01/May/2025 14:02:04] "GET / HTTP/1.1" 200 -
+2025-05-01 14:02:04,754 - INFO - 127.0.0.1 - - [01/May/2025 14:02:04] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:02:04,777 - INFO - 127.0.0.1 - - [01/May/2025 14:02:04] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:02:34,736 - INFO - 127.0.0.1 - - [01/May/2025 14:02:34] "GET / HTTP/1.1" 200 -
+2025-05-01 14:02:34,797 - INFO - 127.0.0.1 - - [01/May/2025 14:02:34] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:02:34,800 - INFO - 127.0.0.1 - - [01/May/2025 14:02:34] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:02:54,276 - INFO - 127.0.0.1 - - [01/May/2025 14:02:54] "GET / HTTP/1.1" 200 -
+2025-05-01 14:02:54,333 - INFO - 127.0.0.1 - - [01/May/2025 14:02:54] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:02:54,347 - INFO - 127.0.0.1 - - [01/May/2025 14:02:54] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:02:55,343 - INFO - 127.0.0.1 - - [01/May/2025 14:02:55] "GET / HTTP/1.1" 200 -
+2025-05-01 14:02:55,369 - INFO - 127.0.0.1 - - [01/May/2025 14:02:55] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:02:55,388 - INFO - 127.0.0.1 - - [01/May/2025 14:02:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:03:52,226 - INFO - 127.0.0.1 - - [01/May/2025 14:03:52] "GET / HTTP/1.1" 200 -
+2025-05-01 14:03:52,263 - INFO - 127.0.0.1 - - [01/May/2025 14:03:52] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:03:52,286 - INFO - 127.0.0.1 - - [01/May/2025 14:03:52] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:03:52,919 - INFO - 127.0.0.1 - - [01/May/2025 14:03:52] "GET / HTTP/1.1" 200 -
+2025-05-01 14:03:52,950 - INFO - 127.0.0.1 - - [01/May/2025 14:03:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:03:52,951 - INFO - 127.0.0.1 - - [01/May/2025 14:03:52] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:03:53,479 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "GET / HTTP/1.1" 200 -
+2025-05-01 14:03:53,502 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:03:53,512 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:03:53,670 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "GET / HTTP/1.1" 200 -
+2025-05-01 14:03:53,694 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:03:53,698 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:03:53,809 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "GET / HTTP/1.1" 200 -
+2025-05-01 14:03:53,843 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:03:53,861 - INFO - 127.0.0.1 - - [01/May/2025 14:03:53] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:04:08,075 - INFO - Login attempt for username: Admin
+2025-05-01 14:04:08,428 - INFO - Login successful for username: Admin
+2025-05-01 14:04:08,430 - INFO - 127.0.0.1 - - [01/May/2025 14:04:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-01 14:04:08,437 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 14:04:08,442 - INFO - 127.0.0.1 - - [01/May/2025 14:04:08] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 14:04:08,507 - INFO - 127.0.0.1 - - [01/May/2025 14:04:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:04:08,508 - INFO - 127.0.0.1 - - [01/May/2025 14:04:08] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:04:21,568 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 14:04:21,574 - INFO - 127.0.0.1 - - [01/May/2025 14:04:21] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 14:04:21,639 - INFO - 127.0.0.1 - - [01/May/2025 14:04:21] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:04:21,651 - INFO - 127.0.0.1 - - [01/May/2025 14:04:21] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:07:02,573 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 14:07:02,580 - INFO - 127.0.0.1 - - [01/May/2025 14:07:02] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 14:07:02,619 - INFO - 127.0.0.1 - - [01/May/2025 14:07:02] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:07:02,682 - INFO - 127.0.0.1 - - [01/May/2025 14:07:02] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:07:02,724 - INFO - 127.0.0.1 - - [01/May/2025 14:07:02] "GET /static/bg_img.jpg HTTP/1.1" 200 -
+2025-05-01 14:07:19,717 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 14:07:19,721 - INFO - 127.0.0.1 - - [01/May/2025 14:07:19] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 14:07:19,765 - INFO - 127.0.0.1 - - [01/May/2025 14:07:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:07:19,779 - INFO - 127.0.0.1 - - [01/May/2025 14:07:19] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:07:21,189 - INFO - User Admin logged out
+2025-05-01 14:07:21,192 - INFO - 127.0.0.1 - - [01/May/2025 14:07:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-01 14:07:21,206 - INFO - 127.0.0.1 - - [01/May/2025 14:07:21] "GET / HTTP/1.1" 200 -
+2025-05-01 14:07:21,267 - INFO - 127.0.0.1 - - [01/May/2025 14:07:21] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:07:21,268 - INFO - 127.0.0.1 - - [01/May/2025 14:07:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:08:40,810 - INFO - 127.0.0.1 - - [01/May/2025 14:08:40] "GET / HTTP/1.1" 200 -
+2025-05-01 14:08:40,839 - INFO - 127.0.0.1 - - [01/May/2025 14:08:40] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:08:40,868 - INFO - 127.0.0.1 - - [01/May/2025 14:08:40] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:08:40,880 - INFO - 127.0.0.1 - - [01/May/2025 14:08:40] "[36mGET /static/bg_img.jpg HTTP/1.1[0m" 304 -
+2025-05-01 14:10:23,133 - INFO - 127.0.0.1 - - [01/May/2025 14:10:23] "GET / HTTP/1.1" 200 -
+2025-05-01 14:10:23,166 - INFO - 127.0.0.1 - - [01/May/2025 14:10:23] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:10:23,206 - INFO - 127.0.0.1 - - [01/May/2025 14:10:23] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:10:23,223 - INFO - 127.0.0.1 - - [01/May/2025 14:10:23] "[36mGET /static/bg_img.jpg HTTP/1.1[0m" 304 -
+2025-05-01 14:10:48,526 - INFO - 127.0.0.1 - - [01/May/2025 14:10:48] "GET / HTTP/1.1" 200 -
+2025-05-01 14:10:48,580 - INFO - 127.0.0.1 - - [01/May/2025 14:10:48] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:10:48,593 - INFO - 127.0.0.1 - - [01/May/2025 14:10:48] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:10:48,597 - INFO - 127.0.0.1 - - [01/May/2025 14:10:48] "[36mGET /static/bg_img.jpg HTTP/1.1[0m" 304 -
+2025-05-01 14:10:49,151 - INFO - 127.0.0.1 - - [01/May/2025 14:10:49] "GET / HTTP/1.1" 200 -
+2025-05-01 14:10:49,188 - INFO - 127.0.0.1 - - [01/May/2025 14:10:49] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:10:49,207 - INFO - 127.0.0.1 - - [01/May/2025 14:10:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:12:08,939 - INFO - 127.0.0.1 - - [01/May/2025 14:12:08] "GET / HTTP/1.1" 200 -
+2025-05-01 14:12:08,988 - INFO - 127.0.0.1 - - [01/May/2025 14:12:08] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:12:08,991 - INFO - 127.0.0.1 - - [01/May/2025 14:12:08] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:12:09,046 - INFO - 127.0.0.1 - - [01/May/2025 14:12:09] "[36mGET /static/bg_img.jpg HTTP/1.1[0m" 304 -
+2025-05-01 14:12:50,531 - INFO - 127.0.0.1 - - [01/May/2025 14:12:50] "GET / HTTP/1.1" 200 -
+2025-05-01 14:12:50,661 - INFO - 127.0.0.1 - - [01/May/2025 14:12:50] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:12:50,662 - INFO - 127.0.0.1 - - [01/May/2025 14:12:50] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:12:50,678 - INFO - 127.0.0.1 - - [01/May/2025 14:12:50] "[36mGET /static/bg_img.jpg HTTP/1.1[0m" 304 -
+2025-05-01 14:13:11,412 - INFO - 127.0.0.1 - - [01/May/2025 14:13:11] "GET / HTTP/1.1" 200 -
+2025-05-01 14:13:11,443 - INFO - 127.0.0.1 - - [01/May/2025 14:13:11] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:13:11,473 - INFO - 127.0.0.1 - - [01/May/2025 14:13:11] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-01 14:13:11,505 - INFO - 127.0.0.1 - - [01/May/2025 14:13:11] "[36mGET /static/bg_img.jpg HTTP/1.1[0m" 304 -
+2025-05-01 14:13:27,289 - INFO - Login attempt for username: Admin
+2025-05-01 14:13:27,669 - INFO - Login successful for username: Admin
+2025-05-01 14:13:27,671 - INFO - 127.0.0.1 - - [01/May/2025 14:13:27] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-01 14:13:27,680 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 14:13:27,685 - INFO - 127.0.0.1 - - [01/May/2025 14:13:27] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 14:13:27,726 - INFO - 127.0.0.1 - - [01/May/2025 14:13:27] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:13:27,728 - INFO - 127.0.0.1 - - [01/May/2025 14:13:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:13:33,791 - INFO - 127.0.0.1 - - [01/May/2025 14:13:33] "GET /add HTTP/1.1" 200 -
+2025-05-01 14:13:33,823 - INFO - 127.0.0.1 - - [01/May/2025 14:13:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:13:33,854 - INFO - 127.0.0.1 - - [01/May/2025 14:13:33] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:13:35,135 - INFO - User Admin accessing history
+2025-05-01 14:13:35,152 - INFO - 127.0.0.1 - - [01/May/2025 14:13:35] "GET /history HTTP/1.1" 200 -
+2025-05-01 14:13:35,182 - INFO - 127.0.0.1 - - [01/May/2025 14:13:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:13:35,205 - INFO - 127.0.0.1 - - [01/May/2025 14:13:35] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 14:13:48,287 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 14:13:48,295 - INFO - 127.0.0.1 - - [01/May/2025 14:13:48] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 14:13:48,323 - INFO - 127.0.0.1 - - [01/May/2025 14:13:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 14:13:48,354 - INFO - 127.0.0.1 - - [01/May/2025 14:13:48] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:01:52,832 - INFO - Dashboard accessed by user Admin, Filters - Category: Supply, Search: , Expiring: False
+2025-05-01 17:01:52,977 - INFO - 127.0.0.1 - - [01/May/2025 17:01:52] "GET /dashboard?search=&category=Supply HTTP/1.1" 200 -
+2025-05-01 17:01:53,088 - INFO - 127.0.0.1 - - [01/May/2025 17:01:53] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:01:53,106 - INFO - 127.0.0.1 - - [01/May/2025 17:01:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:01:53,175 - INFO - 127.0.0.1 - - [01/May/2025 17:01:53] "[36mGET /static/bg_img.jpg HTTP/1.1[0m" 304 -
+2025-05-01 17:01:56,726 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 17:01:56,735 - INFO - 127.0.0.1 - - [01/May/2025 17:01:56] "GET /dashboard?search=&category= HTTP/1.1" 200 -
+2025-05-01 17:01:56,758 - INFO - 127.0.0.1 - - [01/May/2025 17:01:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:01:56,771 - INFO - 127.0.0.1 - - [01/May/2025 17:01:56] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:02:00,885 - INFO - 127.0.0.1 - - [01/May/2025 17:02:00] "GET /add HTTP/1.1" 200 -
+2025-05-01 17:02:00,921 - INFO - 127.0.0.1 - - [01/May/2025 17:02:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:02:00,959 - INFO - 127.0.0.1 - - [01/May/2025 17:02:00] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:10:49,669 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 17:10:49,679 - INFO - 127.0.0.1 - - [01/May/2025 17:10:49] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 17:10:49,720 - INFO - 127.0.0.1 - - [01/May/2025 17:10:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:10:49,822 - INFO - 127.0.0.1 - - [01/May/2025 17:10:49] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:10:50,758 - INFO - 127.0.0.1 - - [01/May/2025 17:10:50] "GET /add HTTP/1.1" 200 -
+2025-05-01 17:10:50,783 - INFO - 127.0.0.1 - - [01/May/2025 17:10:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:10:50,806 - INFO - 127.0.0.1 - - [01/May/2025 17:10:50] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:10:51,655 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 17:10:51,662 - INFO - 127.0.0.1 - - [01/May/2025 17:10:51] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 17:10:51,686 - INFO - 127.0.0.1 - - [01/May/2025 17:10:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:10:51,706 - INFO - 127.0.0.1 - - [01/May/2025 17:10:51] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:10:55,381 - INFO - Fetching item ID 1
+2025-05-01 17:10:55,394 - INFO - 127.0.0.1 - - [01/May/2025 17:10:55] "GET /edit/1/Diatabs HTTP/1.1" 200 -
+2025-05-01 17:10:55,439 - INFO - 127.0.0.1 - - [01/May/2025 17:10:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:10:55,459 - INFO - 127.0.0.1 - - [01/May/2025 17:10:55] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:11:00,926 - INFO - Fetching item ID 1
+2025-05-01 17:11:00,936 - INFO - User Admin editing item ID 1: Diatabs
+2025-05-01 17:11:00,938 - INFO - Updating item ID 1: Diatabs, Category: Supply, Stock: 50
+2025-05-01 17:11:00,954 - INFO - Logging activity: User ID 1, Action: Edited item, Item: Diatabs
+2025-05-01 17:11:00,987 - INFO - 127.0.0.1 - - [01/May/2025 17:11:00] "[32mPOST /edit/1/Diatabs HTTP/1.1[0m" 302 -
+2025-05-01 17:11:00,996 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 17:11:01,004 - INFO - 127.0.0.1 - - [01/May/2025 17:11:01] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 17:11:01,049 - INFO - 127.0.0.1 - - [01/May/2025 17:11:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:11:01,050 - INFO - 127.0.0.1 - - [01/May/2025 17:11:01] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:11:04,912 - INFO - User Admin accessing history
+2025-05-01 17:11:04,927 - INFO - 127.0.0.1 - - [01/May/2025 17:11:04] "GET /history HTTP/1.1" 200 -
+2025-05-01 17:11:04,946 - INFO - 127.0.0.1 - - [01/May/2025 17:11:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:11:04,966 - INFO - 127.0.0.1 - - [01/May/2025 17:11:04] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:11:40,097 - INFO - 127.0.0.1 - - [01/May/2025 17:11:40] "GET /add HTTP/1.1" 200 -
+2025-05-01 17:11:40,120 - INFO - 127.0.0.1 - - [01/May/2025 17:11:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:11:40,141 - INFO - 127.0.0.1 - - [01/May/2025 17:11:40] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:11:42,843 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 17:11:42,848 - INFO - 127.0.0.1 - - [01/May/2025 17:11:42] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 17:11:42,891 - INFO - 127.0.0.1 - - [01/May/2025 17:11:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:11:42,922 - INFO - 127.0.0.1 - - [01/May/2025 17:11:42] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 17:11:45,211 - INFO - 127.0.0.1 - - [01/May/2025 17:11:45] "GET /add HTTP/1.1" 200 -
+2025-05-01 17:11:45,236 - INFO - 127.0.0.1 - - [01/May/2025 17:11:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 17:11:45,257 - INFO - 127.0.0.1 - - [01/May/2025 17:11:45] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
