@@ -11,6 +11,8 @@ body {
     height: 100vh; /* Sets the height to fill the entire viewport */
 }
 
+
+
 /* Terms Page */
 .terms-page {
     max-width: 800px;
@@ -385,7 +387,7 @@ input[type="search"]:focus {
 }
 
 .navbar-container {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -441,6 +443,17 @@ p {
     align-items: center;
     font-weight: 500;
 }
+.help-page h1,
+.help-page h2,
+.help-page h3,
+.help-page p,
+.help-page ul,
+.help-page ol,
+.help-page li {
+    text-align: left;
+    justify-content: flex-start;
+}
+
 
 /* Responsive */
 @media (max-width: 600px) {

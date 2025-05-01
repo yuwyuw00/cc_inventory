@@ -302,6 +302,9 @@ def terms():
 def privacy():
     return render_template('privacy.html')
 
+@app.route('/help')
+def help_page():
+    return render_template('help.html')
 
 if __name__ == '__main__':
     logging.info("Starting the application")
