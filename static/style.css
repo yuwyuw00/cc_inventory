@@ -119,13 +119,16 @@ body {
 /* Container */
 .container {
     max-width: 170vh;
+    max-height: 80vh; /* Set max-height to limit container's vertical size */
     margin: 30px auto;
     background-color: #ffffff;
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 8px 25px rgba(0, 51, 102, 0.2);
+    overflow-y: auto; /* Enables vertical scroll inside the container */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .container:hover {
     transform: translateY(-5px);
