@@ -89,3 +89,279 @@
 2025-05-01 11:54:30,851 - INFO - 127.0.0.1 - - [01/May/2025 11:54:30] "GET /history HTTP/1.1" 200 -
 2025-05-01 11:54:30,903 - INFO - 127.0.0.1 - - [01/May/2025 11:54:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2025-05-01 11:54:30,920 - INFO - 127.0.0.1 - - [01/May/2025 11:54:30] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:58:48,092 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 11:58:48,100 - INFO - 127.0.0.1 - - [01/May/2025 11:58:48] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 11:58:48,128 - INFO - 127.0.0.1 - - [01/May/2025 11:58:48] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 11:58:48,140 - INFO - 127.0.0.1 - - [01/May/2025 11:58:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:08,543 - INFO - User Admin logged out
+2025-05-01 12:01:08,550 - INFO - 127.0.0.1 - - [01/May/2025 12:01:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-01 12:01:08,575 - INFO - 127.0.0.1 - - [01/May/2025 12:01:08] "GET / HTTP/1.1" 200 -
+2025-05-01 12:01:08,629 - INFO - 127.0.0.1 - - [01/May/2025 12:01:08] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:08,644 - INFO - 127.0.0.1 - - [01/May/2025 12:01:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:13,921 - INFO - Login attempt for username: Admin
+2025-05-01 12:01:14,268 - INFO - Login successful for username: Admin
+2025-05-01 12:01:14,271 - INFO - 127.0.0.1 - - [01/May/2025 12:01:14] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-01 12:01:14,280 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 12:01:14,287 - INFO - 127.0.0.1 - - [01/May/2025 12:01:14] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 12:01:14,325 - INFO - 127.0.0.1 - - [01/May/2025 12:01:14] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:14,328 - INFO - 127.0.0.1 - - [01/May/2025 12:01:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:18,128 - INFO - User Admin logged out
+2025-05-01 12:01:18,129 - INFO - 127.0.0.1 - - [01/May/2025 12:01:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-01 12:01:18,134 - INFO - 127.0.0.1 - - [01/May/2025 12:01:18] "GET / HTTP/1.1" 200 -
+2025-05-01 12:01:18,171 - INFO - 127.0.0.1 - - [01/May/2025 12:01:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:18,182 - INFO - 127.0.0.1 - - [01/May/2025 12:01:18] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:25,726 - INFO - Login attempt for username: wtjbhj
+2025-05-01 12:01:25,742 - WARNING - Invalid login credentials for username: wtjbhj
+2025-05-01 12:01:25,742 - INFO - 127.0.0.1 - - [01/May/2025 12:01:25] "POST / HTTP/1.1" 200 -
+2025-05-01 12:01:25,778 - INFO - 127.0.0.1 - - [01/May/2025 12:01:25] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:25,778 - INFO - 127.0.0.1 - - [01/May/2025 12:01:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:29,464 - INFO - Login attempt for username: Admin
+2025-05-01 12:01:29,794 - INFO - Login successful for username: Admin
+2025-05-01 12:01:29,794 - INFO - 127.0.0.1 - - [01/May/2025 12:01:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-01 12:01:29,811 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 12:01:29,816 - INFO - 127.0.0.1 - - [01/May/2025 12:01:29] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 12:01:29,837 - INFO - 127.0.0.1 - - [01/May/2025 12:01:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:29,838 - INFO - 127.0.0.1 - - [01/May/2025 12:01:29] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:41,703 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: d, Expiring: False
+2025-05-01 12:01:41,708 - INFO - 127.0.0.1 - - [01/May/2025 12:01:41] "GET /dashboard?search=d&category= HTTP/1.1" 200 -
+2025-05-01 12:01:41,763 - INFO - 127.0.0.1 - - [01/May/2025 12:01:41] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:41,770 - INFO - 127.0.0.1 - - [01/May/2025 12:01:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:48,957 - INFO - Dashboard accessed by user Admin, Filters - Category: Equipment, Search: d, Expiring: False
+2025-05-01 12:01:48,962 - INFO - 127.0.0.1 - - [01/May/2025 12:01:48] "GET /dashboard?search=d&category=Equipment HTTP/1.1" 200 -
+2025-05-01 12:01:48,999 - INFO - 127.0.0.1 - - [01/May/2025 12:01:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:49,019 - INFO - 127.0.0.1 - - [01/May/2025 12:01:49] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:52,278 - INFO - Dashboard accessed by user Admin, Filters - Category: Equipment, Search: , Expiring: False
+2025-05-01 12:01:52,285 - INFO - 127.0.0.1 - - [01/May/2025 12:01:52] "GET /dashboard?search=&category=Equipment HTTP/1.1" 200 -
+2025-05-01 12:01:52,307 - INFO - 127.0.0.1 - - [01/May/2025 12:01:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:52,318 - INFO - 127.0.0.1 - - [01/May/2025 12:01:52] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:01:58,831 - INFO - Dashboard accessed by user Admin, Filters - Category: Supply, Search: , Expiring: True
+2025-05-01 12:01:58,836 - INFO - 127.0.0.1 - - [01/May/2025 12:01:58] "GET /dashboard?search=&category=Supply&expiring=true HTTP/1.1" 200 -
+2025-05-01 12:01:58,870 - INFO - 127.0.0.1 - - [01/May/2025 12:01:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:01:58,882 - INFO - 127.0.0.1 - - [01/May/2025 12:01:58] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:02:15,971 - INFO - User Admin accessing history
+2025-05-01 12:02:15,981 - INFO - 127.0.0.1 - - [01/May/2025 12:02:15] "GET /history HTTP/1.1" 200 -
+2025-05-01 12:02:16,016 - INFO - 127.0.0.1 - - [01/May/2025 12:02:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:02:16,061 - INFO - 127.0.0.1 - - [01/May/2025 12:02:16] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:02:20,572 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 12:02:20,578 - INFO - 127.0.0.1 - - [01/May/2025 12:02:20] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 12:02:20,618 - INFO - 127.0.0.1 - - [01/May/2025 12:02:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:02:20,637 - INFO - 127.0.0.1 - - [01/May/2025 12:02:20] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:02:24,812 - INFO - Fetching item ID 7
+2025-05-01 12:02:24,812 - INFO - User Admin deleting item ID 7: sample
+2025-05-01 12:02:24,821 - INFO - Deleting item ID 7
+2025-05-01 12:02:24,829 - INFO - Logging activity: User ID 1, Action: Deleted item, Item: sample
+2025-05-01 12:02:24,845 - INFO - 127.0.0.1 - - [01/May/2025 12:02:24] "[32mGET /delete/7 HTTP/1.1[0m" 302 -
+2025-05-01 12:02:24,856 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 12:02:24,868 - INFO - 127.0.0.1 - - [01/May/2025 12:02:24] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 12:02:24,925 - INFO - 127.0.0.1 - - [01/May/2025 12:02:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:02:24,963 - INFO - 127.0.0.1 - - [01/May/2025 12:02:24] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:02:32,534 - INFO - User Admin accessing history
+2025-05-01 12:02:32,539 - INFO - 127.0.0.1 - - [01/May/2025 12:02:32] "GET /history HTTP/1.1" 200 -
+2025-05-01 12:02:32,583 - INFO - 127.0.0.1 - - [01/May/2025 12:02:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:02:32,583 - INFO - 127.0.0.1 - - [01/May/2025 12:02:32] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:02:55,035 - INFO - 127.0.0.1 - - [01/May/2025 12:02:55] "GET /settings HTTP/1.1" 200 -
+2025-05-01 12:02:55,059 - INFO - 127.0.0.1 - - [01/May/2025 12:02:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:02:55,084 - INFO - 127.0.0.1 - - [01/May/2025 12:02:55] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:03:01,162 - INFO - 127.0.0.1 - - [01/May/2025 12:03:01] "GET /settings HTTP/1.1" 200 -
+2025-05-01 12:03:01,196 - INFO - 127.0.0.1 - - [01/May/2025 12:03:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:03:01,211 - INFO - 127.0.0.1 - - [01/May/2025 12:03:01] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:03:03,362 - INFO - 127.0.0.1 - - [01/May/2025 12:03:03] "GET /add HTTP/1.1" 200 -
+2025-05-01 12:03:03,413 - INFO - 127.0.0.1 - - [01/May/2025 12:03:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:03:03,426 - INFO - 127.0.0.1 - - [01/May/2025 12:03:03] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:03:04,125 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 12:03:04,129 - INFO - 127.0.0.1 - - [01/May/2025 12:03:04] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 12:03:04,153 - INFO - 127.0.0.1 - - [01/May/2025 12:03:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:03:04,168 - INFO - 127.0.0.1 - - [01/May/2025 12:03:04] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:03:09,188 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 12:03:09,196 - INFO - 127.0.0.1 - - [01/May/2025 12:03:09] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 12:03:09,216 - INFO - 127.0.0.1 - - [01/May/2025 12:03:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:03:09,227 - INFO - 127.0.0.1 - - [01/May/2025 12:03:09] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:03:16,317 - INFO - User Admin logged out
+2025-05-01 12:03:16,318 - INFO - 127.0.0.1 - - [01/May/2025 12:03:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-01 12:03:16,335 - INFO - 127.0.0.1 - - [01/May/2025 12:03:16] "GET / HTTP/1.1" 200 -
+2025-05-01 12:03:16,366 - INFO - 127.0.0.1 - - [01/May/2025 12:03:16] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:03:16,366 - INFO - 127.0.0.1 - - [01/May/2025 12:03:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:18,500 - WARNING - Unauthorized access to history
+2025-05-01 12:04:18,502 - INFO - 127.0.0.1 - - [01/May/2025 12:04:18] "[32mGET /history HTTP/1.1[0m" 302 -
+2025-05-01 12:04:18,514 - INFO - 127.0.0.1 - - [01/May/2025 12:04:18] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:18,554 - INFO - 127.0.0.1 - - [01/May/2025 12:04:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:18,556 - INFO - 127.0.0.1 - - [01/May/2025 12:04:18] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:19,970 - WARNING - Unauthorized access to settings
+2025-05-01 12:04:19,972 - INFO - 127.0.0.1 - - [01/May/2025 12:04:19] "[32mGET /settings HTTP/1.1[0m" 302 -
+2025-05-01 12:04:19,981 - INFO - 127.0.0.1 - - [01/May/2025 12:04:19] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:20,009 - INFO - 127.0.0.1 - - [01/May/2025 12:04:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:20,011 - INFO - 127.0.0.1 - - [01/May/2025 12:04:20] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:20,788 - WARNING - Unauthorized access to add item
+2025-05-01 12:04:20,788 - INFO - 127.0.0.1 - - [01/May/2025 12:04:20] "[32mGET /add HTTP/1.1[0m" 302 -
+2025-05-01 12:04:20,788 - INFO - 127.0.0.1 - - [01/May/2025 12:04:20] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:20,827 - INFO - 127.0.0.1 - - [01/May/2025 12:04:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:20,828 - INFO - 127.0.0.1 - - [01/May/2025 12:04:20] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:21,488 - WARNING - Unauthorized access to dashboard
+2025-05-01 12:04:21,493 - INFO - 127.0.0.1 - - [01/May/2025 12:04:21] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-01 12:04:21,507 - INFO - 127.0.0.1 - - [01/May/2025 12:04:21] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:21,545 - INFO - 127.0.0.1 - - [01/May/2025 12:04:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:21,546 - INFO - 127.0.0.1 - - [01/May/2025 12:04:21] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:22,821 - WARNING - Unauthorized access to add item
+2025-05-01 12:04:22,824 - INFO - 127.0.0.1 - - [01/May/2025 12:04:22] "[32mGET /add HTTP/1.1[0m" 302 -
+2025-05-01 12:04:22,836 - INFO - 127.0.0.1 - - [01/May/2025 12:04:22] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:22,876 - INFO - 127.0.0.1 - - [01/May/2025 12:04:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:22,899 - INFO - 127.0.0.1 - - [01/May/2025 12:04:22] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:23,545 - WARNING - Unauthorized access to history
+2025-05-01 12:04:23,547 - INFO - 127.0.0.1 - - [01/May/2025 12:04:23] "[32mGET /history HTTP/1.1[0m" 302 -
+2025-05-01 12:04:23,564 - INFO - 127.0.0.1 - - [01/May/2025 12:04:23] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:23,610 - INFO - 127.0.0.1 - - [01/May/2025 12:04:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:23,611 - INFO - 127.0.0.1 - - [01/May/2025 12:04:23] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:26,105 - WARNING - Unauthorized access to dashboard
+2025-05-01 12:04:26,105 - INFO - 127.0.0.1 - - [01/May/2025 12:04:26] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-01 12:04:26,105 - INFO - 127.0.0.1 - - [01/May/2025 12:04:26] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:26,151 - INFO - 127.0.0.1 - - [01/May/2025 12:04:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:26,153 - INFO - 127.0.0.1 - - [01/May/2025 12:04:26] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:27,628 - WARNING - Unauthorized access to history
+2025-05-01 12:04:27,629 - INFO - 127.0.0.1 - - [01/May/2025 12:04:27] "[32mGET /history HTTP/1.1[0m" 302 -
+2025-05-01 12:04:27,636 - INFO - 127.0.0.1 - - [01/May/2025 12:04:27] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:27,667 - INFO - 127.0.0.1 - - [01/May/2025 12:04:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:27,671 - INFO - 127.0.0.1 - - [01/May/2025 12:04:27] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:31,211 - WARNING - Unauthorized access to settings
+2025-05-01 12:04:31,212 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "[32mGET /settings HTTP/1.1[0m" 302 -
+2025-05-01 12:04:31,221 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:31,254 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:31,255 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:31,849 - WARNING - Unauthorized access to add item
+2025-05-01 12:04:31,850 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "[32mGET /add HTTP/1.1[0m" 302 -
+2025-05-01 12:04:31,866 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:31,897 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:31,898 - INFO - 127.0.0.1 - - [01/May/2025 12:04:31] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:32,631 - WARNING - Unauthorized access to dashboard
+2025-05-01 12:04:32,631 - INFO - 127.0.0.1 - - [01/May/2025 12:04:32] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-05-01 12:04:32,646 - INFO - 127.0.0.1 - - [01/May/2025 12:04:32] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:32,667 - INFO - 127.0.0.1 - - [01/May/2025 12:04:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:32,694 - INFO - 127.0.0.1 - - [01/May/2025 12:04:32] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:35,454 - WARNING - Unauthorized access to add item
+2025-05-01 12:04:35,454 - INFO - 127.0.0.1 - - [01/May/2025 12:04:35] "[32mGET /add HTTP/1.1[0m" 302 -
+2025-05-01 12:04:35,474 - INFO - 127.0.0.1 - - [01/May/2025 12:04:35] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:35,517 - INFO - 127.0.0.1 - - [01/May/2025 12:04:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:35,519 - INFO - 127.0.0.1 - - [01/May/2025 12:04:35] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:36,097 - WARNING - Unauthorized access to add item
+2025-05-01 12:04:36,098 - INFO - 127.0.0.1 - - [01/May/2025 12:04:36] "[32mGET /add HTTP/1.1[0m" 302 -
+2025-05-01 12:04:36,114 - INFO - 127.0.0.1 - - [01/May/2025 12:04:36] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:36,129 - INFO - 127.0.0.1 - - [01/May/2025 12:04:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:36,166 - INFO - 127.0.0.1 - - [01/May/2025 12:04:36] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:37,436 - WARNING - Unauthorized access to history
+2025-05-01 12:04:37,438 - INFO - 127.0.0.1 - - [01/May/2025 12:04:37] "[32mGET /history HTTP/1.1[0m" 302 -
+2025-05-01 12:04:37,455 - INFO - 127.0.0.1 - - [01/May/2025 12:04:37] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:37,501 - INFO - 127.0.0.1 - - [01/May/2025 12:04:37] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:04:37,531 - INFO - 127.0.0.1 - - [01/May/2025 12:04:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:38,204 - INFO - User None logged out
+2025-05-01 12:04:38,205 - INFO - 127.0.0.1 - - [01/May/2025 12:04:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-01 12:04:38,220 - INFO - 127.0.0.1 - - [01/May/2025 12:04:38] "GET / HTTP/1.1" 200 -
+2025-05-01 12:04:38,241 - INFO - 127.0.0.1 - - [01/May/2025 12:04:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:04:38,247 - INFO - 127.0.0.1 - - [01/May/2025 12:04:38] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:09:10,060 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 12:09:12,168 - INFO - Starting the application
+2025-05-01 12:09:12,249 - WARNING -  * Debugger is active!
+2025-05-01 12:09:12,266 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 12:09:39,159 - INFO - 127.0.0.1 - - [01/May/2025 12:09:39] "GET / HTTP/1.1" 200 -
+2025-05-01 12:09:39,330 - INFO - 127.0.0.1 - - [01/May/2025 12:09:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:09:39,377 - INFO - 127.0.0.1 - - [01/May/2025 12:09:39] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:09:40,539 - INFO - Login attempt for username: Admin
+2025-05-01 12:09:40,921 - INFO - Login successful for username: Admin
+2025-05-01 12:09:40,923 - INFO - 127.0.0.1 - - [01/May/2025 12:09:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-01 12:09:40,936 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 12:09:40,954 - INFO - 127.0.0.1 - - [01/May/2025 12:09:40] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 12:09:40,995 - INFO - 127.0.0.1 - - [01/May/2025 12:09:40] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 12:09:40,997 - INFO - 127.0.0.1 - - [01/May/2025 12:09:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:09:43,702 - INFO - 127.0.0.1 - - [01/May/2025 12:09:43] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 12:10:32,700 - INFO - 127.0.0.1 - - [01/May/2025 12:10:32] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 12:10:35,361 - INFO - 127.0.0.1 - - [01/May/2025 12:10:35] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 12:17:42,278 - INFO - 127.0.0.1 - - [01/May/2025 12:17:42] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 12:17:42,840 - INFO - 127.0.0.1 - - [01/May/2025 12:17:42] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 12:17:44,623 - INFO - 127.0.0.1 - - [01/May/2025 12:17:44] "[33mGET /edit/4 HTTP/1.1[0m" 404 -
+2025-05-01 12:42:56,797 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 12:42:58,196 - INFO - Starting the application
+2025-05-01 12:42:58,327 - WARNING -  * Debugger is active!
+2025-05-01 12:42:58,344 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 12:43:08,643 - INFO - Fetching item ID 4
+2025-05-01 12:43:08,762 - INFO - 127.0.0.1 - - [01/May/2025 12:43:08] "GET /edit/4 HTTP/1.1" 200 -
+2025-05-01 12:43:08,943 - INFO - 127.0.0.1 - - [01/May/2025 12:43:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 12:43:08,963 - INFO - 127.0.0.1 - - [01/May/2025 12:43:08] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:16:19,957 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:16:20,501 - INFO - 127.0.0.1 - - [01/May/2025 13:16:20] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-05-01 13:16:20,709 - INFO - 127.0.0.1 - - [01/May/2025 13:16:20] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:16:20,713 - INFO - 127.0.0.1 - - [01/May/2025 13:16:20] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-01 13:16:20,777 - INFO - 127.0.0.1 - - [01/May/2025 13:16:20] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=mffPtvW5cQi2SWvKWq5V HTTP/1.1" 200 -
+2025-05-01 13:16:20,826 - INFO - 127.0.0.1 - - [01/May/2025 13:16:20] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-01 13:16:34,675 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:16:34,901 - INFO - 127.0.0.1 - - [01/May/2025 13:16:34] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-05-01 13:16:34,938 - INFO - 127.0.0.1 - - [01/May/2025 13:16:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:16:34,969 - INFO - 127.0.0.1 - - [01/May/2025 13:16:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-01 13:16:35,021 - INFO - 127.0.0.1 - - [01/May/2025 13:16:35] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=mffPtvW5cQi2SWvKWq5V HTTP/1.1[0m" 304 -
+2025-05-01 13:16:35,065 - INFO - 127.0.0.1 - - [01/May/2025 13:16:35] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-01 13:16:41,798 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:16:41,922 - INFO - 127.0.0.1 - - [01/May/2025 13:16:41] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-05-01 13:16:41,980 - INFO - 127.0.0.1 - - [01/May/2025 13:16:41] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:16:42,036 - INFO - 127.0.0.1 - - [01/May/2025 13:16:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-01 13:16:42,108 - INFO - 127.0.0.1 - - [01/May/2025 13:16:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=mffPtvW5cQi2SWvKWq5V HTTP/1.1[0m" 304 -
+2025-05-01 13:17:11,598 - INFO - User Admin logged out
+2025-05-01 13:17:11,599 - INFO - 127.0.0.1 - - [01/May/2025 13:17:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-01 13:17:11,621 - INFO - 127.0.0.1 - - [01/May/2025 13:17:11] "GET / HTTP/1.1" 200 -
+2025-05-01 13:17:11,787 - INFO - 127.0.0.1 - - [01/May/2025 13:17:11] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:17:11,822 - INFO - 127.0.0.1 - - [01/May/2025 13:17:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:17:13,225 - INFO - Login attempt for username: Admin
+2025-05-01 13:17:13,544 - INFO - Login successful for username: Admin
+2025-05-01 13:17:13,546 - INFO - 127.0.0.1 - - [01/May/2025 13:17:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-01 13:17:13,552 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:17:13,616 - INFO - 127.0.0.1 - - [01/May/2025 13:17:13] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-05-01 13:17:13,672 - INFO - 127.0.0.1 - - [01/May/2025 13:17:13] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-01 13:17:13,675 - INFO - 127.0.0.1 - - [01/May/2025 13:17:13] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:17:13,704 - INFO - 127.0.0.1 - - [01/May/2025 13:17:13] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=mffPtvW5cQi2SWvKWq5V HTTP/1.1[0m" 304 -
+2025-05-01 13:22:47,426 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 13:22:48,949 - INFO - Starting the application
+2025-05-01 13:22:49,106 - WARNING -  * Debugger is active!
+2025-05-01 13:22:49,117 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 13:37:08,353 - INFO - 127.0.0.1 - - [01/May/2025 13:37:08] "GET / HTTP/1.1" 200 -
+2025-05-01 13:37:10,395 - INFO - Login attempt for username: Admin
+2025-05-01 13:37:10,797 - INFO - Login successful for username: Admin
+2025-05-01 13:37:10,802 - INFO - 127.0.0.1 - - [01/May/2025 13:37:10] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-01 13:37:10,809 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:37:10,988 - INFO - 127.0.0.1 - - [01/May/2025 13:37:10] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:37:11,496 - INFO - 127.0.0.1 - - [01/May/2025 13:37:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:37:11,537 - INFO - 127.0.0.1 - - [01/May/2025 13:37:11] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:37:25,229 - INFO - 127.0.0.1 - - [01/May/2025 13:37:25] "GET /add HTTP/1.1" 200 -
+2025-05-01 13:37:25,274 - INFO - 127.0.0.1 - - [01/May/2025 13:37:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:37:25,303 - INFO - 127.0.0.1 - - [01/May/2025 13:37:25] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:37:47,417 - INFO - User Admin adding item: asdasd
+2025-05-01 13:37:47,418 - INFO - Adding item: asdasd, Category: Equipment, Stock: 111
+2025-05-01 13:37:47,474 - INFO - Logging activity: User ID 1, Action: Added item, Item: asdasd
+2025-05-01 13:37:47,486 - INFO - 127.0.0.1 - - [01/May/2025 13:37:47] "[32mPOST /add HTTP/1.1[0m" 302 -
+2025-05-01 13:37:47,493 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:37:47,500 - INFO - 127.0.0.1 - - [01/May/2025 13:37:47] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:37:47,578 - INFO - 127.0.0.1 - - [01/May/2025 13:37:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:37:47,579 - INFO - 127.0.0.1 - - [01/May/2025 13:37:47] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:37:49,329 - INFO - User Admin accessing history
+2025-05-01 13:37:49,346 - INFO - 127.0.0.1 - - [01/May/2025 13:37:49] "GET /history HTTP/1.1" 200 -
+2025-05-01 13:37:49,377 - INFO - 127.0.0.1 - - [01/May/2025 13:37:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:37:49,390 - INFO - 127.0.0.1 - - [01/May/2025 13:37:49] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:37:51,728 - INFO - Dashboard accessed by user Admin, Filters - Category: , Search: , Expiring: False
+2025-05-01 13:37:51,749 - INFO - 127.0.0.1 - - [01/May/2025 13:37:51] "GET /dashboard HTTP/1.1" 200 -
+2025-05-01 13:37:51,783 - INFO - 127.0.0.1 - - [01/May/2025 13:37:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:37:51,810 - INFO - 127.0.0.1 - - [01/May/2025 13:37:51] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:37:53,921 - INFO - Fetching item ID 4
+2025-05-01 13:37:53,947 - INFO - 127.0.0.1 - - [01/May/2025 13:37:53] "GET /edit/4 HTTP/1.1" 200 -
+2025-05-01 13:37:53,995 - INFO - 127.0.0.1 - - [01/May/2025 13:37:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-01 13:37:54,042 - INFO - 127.0.0.1 - - [01/May/2025 13:37:54] "[36mGET /static/cc_logo.png HTTP/1.1[0m" 304 -
+2025-05-01 13:45:38,329 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 13:45:39,910 - INFO - Starting the application
+2025-05-01 13:45:40,014 - WARNING -  * Debugger is active!
+2025-05-01 13:45:40,021 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 13:45:51,637 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 13:45:52,461 - INFO - Starting the application
+2025-05-01 13:45:52,506 - WARNING -  * Debugger is active!
+2025-05-01 13:45:52,513 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 13:46:28,828 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 13:46:29,894 - INFO - Starting the application
+2025-05-01 13:46:29,995 - WARNING -  * Debugger is active!
+2025-05-01 13:46:30,010 - INFO -  * Debugger PIN: 605-849-761
+2025-05-01 13:47:14,527 - INFO -  * Detected change in 'C:\\Users\\regve\\Desktop\\cc_inventory\\app.py', reloading
+2025-05-01 13:47:15,375 - INFO - Starting the application
+2025-05-01 13:47:15,472 - WARNING -  * Debugger is active!
+2025-05-01 13:47:15,484 - INFO -  * Debugger PIN: 605-849-761

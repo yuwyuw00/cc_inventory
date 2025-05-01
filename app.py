@@ -163,10 +163,13 @@ def dashboard():
     query += " ORDER BY expiration_date ASC"
 
     cur.execute(query, tuple(params))
-    items = cur.fetchall()
+    rows = cur.fetchall()
     cur.close()
 
+    items = [Item(*row) for row in rows]  # Convert tuples to Item objects
+
     return render_template('dashboard.html', items=items, today=date.today())
+
 
 
 @app.route('/add', methods=['GET', 'POST'])
@@ -192,8 +195,8 @@ def add_item():
     return render_template('add_item.html')
 
 
-@app.route('/edit/<int:item_id>', methods=['GET', 'POST'])
-def edit_item(item_id):
+@app.route('/edit/<int:item_id>/<string:item_name>', methods=['GET', 'POST'])
+def edit_item(item_id, item_name):
     if 'id' not in session:
         logging.warning("Unauthorized access to edit item")
         return redirect('/')
@@ -222,7 +225,7 @@ def edit_item(item_id):
             logging.error(f"Error updating item ID {item_id}: {e}")
             flash("Invalid input. Please check your data and try again.")
 
-    return render_template("edit_item.html", item=item)
+    return render_template("edit_item.html", item=item, item_name=item_name)
 
 
 @app.route('/delete/<int:item_id>')

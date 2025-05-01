@@ -44,18 +44,21 @@
                 <tbody>
                     {% for item in items %}
                     <tr>
-                        <td>{{ item[1] }}</td>
-                        <td>{{ item[2] }}</td>
-                        <td>{{ item[3] }}</td>
-                        <td>{{ item[4] or 'N/A' }}</td>
-                        <td>{{ item[5] }}</td>
+                        <td>{{ item.name }}</td>
+                        <td>{{ item.category }}</td>
+                        <td>{{ item.stock }}</td>
+                        <td>{{ item.expiration_date or 'N/A' }}</td>
+                        <td>{{ item.description }}</td>
                         <td class="action-buttons">
-                            <a href="/edit/{{ item[0] }}">Edit</a>
-                            <a href="/delete/{{ item[0] }}" onclick="return confirm('Are you sure?')">Delete</a>
+                            <a href="{{ url_for('edit_item', item_id=item.id, item_name=item.name) }}">Edit</a>
+
+
+                            <a href="{{ url_for('delete_item', item_id=item.id) }}" onclick="return confirm('Are you sure?')">Delete</a>
                         </td>
                     </tr>
                     {% endfor %}
                 </tbody>
+                
             </table>
         {% else %}
             <p>No items found.</p>

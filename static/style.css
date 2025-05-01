@@ -1,10 +1,14 @@
 /* Base Setup */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #eaf6ff, #d9ecff);
+    background: 
+        linear-gradient(to bottom, #c9e8ff, rgba(211, 233, 255, 0.705)), 
+        url('/static/bg_img.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the background image covers the entire screen */
     color: #003366;
     margin: 0;
     padding: 0;
+    height: 100vh; /* Sets the height to fill the entire viewport */
 }
 
 /* Container */

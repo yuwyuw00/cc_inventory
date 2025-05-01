@@ -1,30 +1,28 @@
 {% extends 'layout.html' %}
 {% block content %}
 <div class="edit_page">
-    <form method="POST">
-        <h2>Edit Item</h2>
-        <label>Name:</label>
-        <input type="text" name="name" value="{{ item[1] }}" required>
-      
-        <label>Category:</label>
-        <select name="category" required>
-          <option value="Supply" {% if item[2] == 'Supply' %}selected{% endif %}>Supply</option>
-          <option value="Equipment" {% if item[2] == 'Equipment' %}selected{% endif %}>Equipment</option>
-        </select>
-      
-        <label>Stock:</label>
-        <input type="number" name="stock" value="{{ item[3] }}" required>
-      
-        <label>Expiration Date:</label>
-        <input type="date" name="expiration_date" value="{{ item[4] }}">
-      
-        <label>Description:</label>
-        <textarea name="description">{{ item[5] }}</textarea>
-      
-        <button type="submit">Update Item</button>
-      </form>
+  <form method="POST">
+    <h2>Edit Item</h2>
 
+    <label>Name:</label>
+    <input type="text" name="name" value="{{ item.name }}" required>
+
+    <label>Category:</label>
+    <select name="category" required>
+      <option value="Supply" {% if item.category == 'Supply' %}selected{% endif %}>Supply</option>
+      <option value="Equipment" {% if item.category == 'Equipment' %}selected{% endif %}>Equipment</option>
+    </select>
+
+    <label>Stock:</label>
+    <input type="number" name="stock" value="{{ item.stock }}" required>
+
+    <label>Expiration Date:</label>
+    <input type="date" name="expiration_date" value="{{ item.expiration_date }}">
+
+    <label>Description:</label>
+    <textarea name="description">{{ item.description }}</textarea>
+
+    <button type="submit">Update Item</button>
+  </form>
 </div>
-
-  
-  {% endblock %}
+{% endblock %}
